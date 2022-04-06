@@ -18,6 +18,7 @@ Data collection target: target vehicle, Ego vehicle, Neighboring vehicle
 source: Study on the Development of Methodology for Evaluation of Driving Safety of Automated Vehicles on Real Roads
 
 
+
 Flow chart
 
 ![image](https://user-images.githubusercontent.com/82865552/161984434-3c426cfb-e2aa-4d0e-a74d-565f6671fd17.png)
