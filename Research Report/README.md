@@ -4,7 +4,7 @@
 >>
 >>* ~~ 이기종 디바이스간 통신 실습(PC1 (Ubuntu) - PC2 (Ubuntu)), Unity - ROS pub-sub ~~
 >>
-> [0408]
+> [0408] (https://github.com/ujinilee/AiCarLab/blob/main/Research%20Report/%EC%9C%A0%EB%8B%88%ED%8B%B0-urdf%EB%AA%A8%EB%8D%B8.md)
 >>* 가상머신 Ubuntu ROS 설치, ros birdge client, urdf 임포트 URDF 모델 Unity import
 >>
 >>* ~~ Unity - ROS 웹소켓 통신, 스크립트 속성 활용 ~~
