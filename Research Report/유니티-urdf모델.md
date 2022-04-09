@@ -1,6 +1,8 @@
 ### PC2에 ROS 설치
 Ubuntu 18.04 -> melodic //현재 우리가 사용하고 있는 ubuntu 버전
+
 **한 줄 설치 명령어**
+
 wget https://raw.githubusercontent.com/orocapangyo/meetup/master/190830/install_ros_melodic.sh && chmod 755 ./install_ros_melodic.sh && bash ./install_ros_melodic.sh
 
 **key 설정 오류**
