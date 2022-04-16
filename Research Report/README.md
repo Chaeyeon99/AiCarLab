@@ -8,3 +8,8 @@
 >>* 가상머신 Ubuntu ROS 설치, ros birdge client, urdf 임포트 URDF 모델 Unity import
 >>
 >>* Unity - ROS 웹소켓 통신, 스크립트 속성 활용
+>>
+> 0414
+>>* Web socket 연결, Unity ROS Connector, rosbridge install
+>>
+>>* Twist, Unity Publisher 코드, ROS Subscriber 코드 작성
