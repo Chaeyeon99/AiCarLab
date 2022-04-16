@@ -18,11 +18,12 @@ inet 부분이 ip주소
 handshaking...
 
 
-** ROS Bridge - ROS Connector 연결
+**ROS Bridge - ROS Connector 연결
+
 rosbridge: ROS 환경에서 실행되는 노드로, 웹소켓을 생성하여 ROS와 비ROS 사이에 JSON 형식으로 통신함으로써 ROS의 범용성을 높임.
 
 
-** ROS
+**ROS
 
 Web Socket 기반 rosbridge_suite 라이브러리
 ros bridge 설치
@@ -68,7 +69,8 @@ $ cat rosbridge_websocket.launch
 ![우분투4](https://user-images.githubusercontent.com/82865552/163678387-2959644a-b1ce-4c4c-8be0-205d793ca5a3.PNG)
 
 
-** Unity
+**Unity
+
 WebSocket 연결할 url 지정 (ex. ws://0.0.0.0:9090)
 Twist publisher
 ROS와 주고받을 Topic 지정 /cmd_vel
