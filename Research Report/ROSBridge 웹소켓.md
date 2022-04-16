@@ -38,7 +38,14 @@ $sudo apt-get install ros-melodic-rosbridge-suite
 rosbridge 실행 명령어
 $roslaunch rosbridge_server rosbridge_websocket.launch
 
+![우분투2](https://user-images.githubusercontent.com/82865552/163678376-ac86da94-f090-4c19-93c6-e934d5ef05be.jpg)
+![우분투3](https://user-images.githubusercontent.com/82865552/163678381-02c3dafa-509b-40d5-a104-b82f5574274e.jpg)
+
+
 0.0.0.0:9090 접속
+
+![우분투1](https://user-images.githubusercontent.com/82865552/163678368-4dfe4857-3fc5-4bcf-b7fd-65384b3fc9ae.PNG)
+
 
 유니티와 ROS 통신을 위해 로컬 IP주소 확인
 $hostname -I
@@ -58,8 +65,17 @@ $ cat rosbridge_websocket.launch
 
 이상태로 PC에서 Chrome을 열고 IP주소와 포트번호를 넣었을 때 실행되면 다른 PC에서도 접속할 수 있는 웹소켓 실행상태. ex. http://0.0.0.0:9090
 
+![우분투4](https://user-images.githubusercontent.com/82865552/163678387-2959644a-b1ce-4c4c-8be0-205d793ca5a3.PNG)
+
+
 ** Unity
 WebSocket 연결할 url 지정 (ex. ws://0.0.0.0:9090)
+Twist publisher
+ROS와 주고받을 Topic 지정 /cmd_vel
+
+![유니티1](https://user-images.githubusercontent.com/82865552/163678336-ea26bbe9-3954-4e87-ac61-734b68f49fdf.PNG)
+
+![유니티2](https://user-images.githubusercontent.com/82865552/163678343-15bbab7e-a56a-4159-87ed-e41a122e8fed.PNG)
 
 
 이후 각각 publisher와 subscriber python 코드 작성 필요
