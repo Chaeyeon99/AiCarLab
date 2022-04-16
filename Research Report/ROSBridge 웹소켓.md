@@ -68,7 +68,7 @@ $ cat rosbridge_websocket.launch
 ![우분투4](https://user-images.githubusercontent.com/82865552/163678387-2959644a-b1ce-4c4c-8be0-205d793ca5a3.PNG)
 
 
-** Unity
+* Unity
 WebSocket 연결할 url 지정 (ex. ws://0.0.0.0:9090)
 Twist publisher
 ROS와 주고받을 Topic 지정 /cmd_vel
