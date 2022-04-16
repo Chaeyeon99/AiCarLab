@@ -61,7 +61,7 @@ $ cat rosbridge_websocket.launch
 
 <launch>
   <arg name="port" default="9090" />
-    ...
+  ...
 </launch>
 
 이상태로 PC에서 Chrome을 열고 IP주소와 포트번호를 넣었을 때 실행되면 다른 PC에서도 접속할 수 있는 웹소켓 실행상태. ex. http://0.0.0.0:9090
