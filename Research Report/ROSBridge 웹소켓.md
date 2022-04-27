@@ -1,4 +1,4 @@
-$roscore
+$roscore <br/>
 ROS_MASTER_URI=http://swu:11311/
 
 $ifconfig
