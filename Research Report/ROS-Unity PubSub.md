@@ -2,9 +2,12 @@
 ros bridge 실행
 
 - rqt graph
+![image](https://user-images.githubusercontent.com/82865552/165927169-01ced962-3f3d-4a52-a865-4bdb26f7c192.png)
 
-- publisher : talker.py
+
+publisher : talker.py
 (ArchivosPY.tar.gz)
+![image](https://user-images.githubusercontent.com/82865552/165927510-0c0235cf-8cb0-4cac-91c5-9cc5ed8d0871.png)
 
 command
 
@@ -25,10 +28,15 @@ catkin_create_pkg beginner_tutorilas message_generation std_msgs rospy
 파이썬파일을 사용하고 메세지를 publish 할 수 있게 해준다는 명시어
 
 xml 파일 생성 
+![image](https://user-images.githubusercontent.com/82865552/165927571-925f4744-dfd4-49b8-acf1-6ab9613f20b3.png)
 
 - rqt graph
+![image](https://user-images.githubusercontent.com/82865552/165927195-7af2e467-b845-4e87-b984-2ebfe587494f.png)
+
 
 ### ROS PC RUN
+![Uploading image.png…]()
+
 ![Hnet com-image (1)](https://user-images.githubusercontent.com/74848401/165255395-24614146-292e-4279-b340-cd789f2fa2ee.gif)
 
 ### ROS-Unity Subscribe
@@ -43,8 +51,7 @@ Script: PoseStampedSubscriber, ROSConnector
 
 PoseStampedSubscriber.cs
 
-```
-using UnityEngine;
+```using UnityEngine;
 
 namespace RosSharp.RosBridgeClient
 {
@@ -97,9 +104,8 @@ namespace RosSharp.RosBridgeClient
                 (float)message.orientation.w);
         }
     }
-}
+}```
 
-```
 
 Topic: /chatter_
 
@@ -109,8 +115,7 @@ Ros Bridge Server Url: ws://(웹소켓 연 IP주소)
 
 - rqt graph
 pub/sub 잘 연결되어 있어 양방향 통신
-
-
+![image](https://user-images.githubusercontent.com/82865552/165927210-301b76ba-c4c7-4c4f-b780-508459c02c28.png)
 
 ### Unity PC RUN
 ![Hnet com-image (2)](https://user-images.githubusercontent.com/74848401/165256211-27200d9f-8c2f-430c-a933-292c9bc6e5c5.gif)
