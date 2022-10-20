@@ -13,3 +13,9 @@
 >>* Web socket 연결, Unity ROS Connector, rosbridge install
 >>
 >>* Twist, Unity Publisher 코드, ROS Subscriber 코드 작성
+>>
+> [0426](https://github.com/ujinilee/AiCarLab/blob/main/Research%20Report/ROS-Unity%20PubSub.md)
+>>* ROS-Unity pub/sub 코드, pose 데이터 값 양방향 통신
+>>
+>>* 센서 데이터 통신, URDF 환경모델링
+>>
